@@ -1,0 +1,179 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    max-width: 1320px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body {
+    background-color: burlywood;
+    font-family: 'Comfortaa', cursive;
+}
+img{
+    max-width: 100%;
+}
+header{
+    background-color: bisque;
+    width: 100%;
+}
+.lisbonita{
+    font-family: 'Yeseva One', cursive;
+    font-size: 300%;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+}
+.lisbonita:hover{
+    color: rgb(179, 134, 76);
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+nav{
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+}
+.nav__list{
+    display: flex;
+    max-width: auto;
+}
+.nav__item{
+    margin: 0px 10px;
+    list-style: none;
+}
+.nav__link{
+    color: rgb(179, 134, 76);
+    text-transform: uppercase;
+}
+.nav__link:hover{
+opacity: 0.50;
+}
+.index__subtitulo{
+    text-align: center;
+    color: rgb(79, 20, 20);
+    margin: 20px;
+}
+.index__img{
+    width: auto;
+}
+.index__parrafo{
+    text-align: center;
+    margin: 30px 10px 10px 10px;
+}
+.card__container{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 20px;
+    border:solid 3px rgb(79, 20, 20);
+    max-width: 18rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.card__img{
+    width: 16rem;
+}
+.card__btm{
+    font-size: 1.2rem;
+    background-color: bisque;
+    border: none;
+    padding: 3px;
+    border-radius: 1rem;
+    cursor: pointer;
+    color: rgb(179, 134, 76);
+   text-align: none;
+}
+.card__btm:hover{
+    background-color: rgb(79, 20, 20);
+    border: 2px solid white;
+}
+footer{
+    background-color: bisque;
+    padding: 2px;
+    margin: 2px;  
+}  
+.footer-sm {
+    color: rgb(179, 134, 76);
+  } 
+.footer-sm a {
+    color: rgb(179, 134, 76);
+  }
+  
+.footer-sm a i {
+    font-size: 1rem;
+  }
+  
+.footer-sm__icons {
+    text-align: center;
+  }
+.container{
+    width: 80%;
+    margin: 2rem auto;
+    max-width: 1320px;
+}
+  /*imperdibles y comida*/
+.pages__parrafo{
+    margin: 2rem;
+    text-align:justify;
+}
+.pages__container{
+    margin: 60px;
+    padding: 10px;
+}
+.pages__img{
+    width: 40rem;
+}
+.pages__info{
+    margin: 10px 0px;
+    font-size:larger;
+}
+.comida__video{
+    margin: 40px 40px 40px 60px;
+    padding: 10px;
+    align-items: center;
+}
+/*tours*/
+.tours__page{
+    justify-items: center;
+}
+.tours__img{
+    width: 25vh;
+    margin: 3px;
+    padding: 3px;
+}
+.tours{
+    padding: 15px 60px;
+    margin: 10px 30px;
+    border:solid 3px rgb(79, 20, 20);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tours__title{
+    margin: 5px;
+}
+/*contacto*/
+.contactoContainer{
+    color: aliceblue;
+}
+.contacto{
+    margin: 20px;
+    padding: 40px;
+    font-size: larger;
+    line-height: 200%;
+    text-align: center;
+}

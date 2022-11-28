@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+  <header>
+    <div class="container">
+        <div class="row">
+            <a class="lisbonita" href="../index.html">LISBONITA</a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link" href="../index.html">Index</a></li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="imperdibles.html">Imperdibles de Lisboa</a></li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="comida.html">Comida</a></li> 
+                    <li class="nav__item">
+                        <a class="nav__link" href="tours.html">Tours</a></li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="contacto.html">Contactanos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+  </header>
+    <div class="container">
+        <form class="contactoContainer" action="/">
+        <fieldset class="contacto">
+            <legend>Dejanos tu mensaje</legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            <br>
+            <label for="país">País</label>
+            <input type="text" name="pais" id="pais">
+            <br>
+            <label for="fecha">Fecha de viaje</label>
+            <input type="date" value="fecha">
+            <p>Es mi primera vez en Lisboa</p>
+            <label for="si">Si</label>
+            <input type="radio" name="si" value="Si">
+            <label for="si">No</label>
+            <input type="radio" name="no" value="no">
+            <br>
+            <label for="mensaje"></label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </fieldset>
+        </form>
+    </div>
+  <footer>
+    <div class="footer-sm">
+        <div class="container">
+            <div class="footer-sm__icons">
+                <div>Buscanos en las redes</div>
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+  </footer>
+</body> 
+</html>
