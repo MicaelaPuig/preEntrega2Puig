@@ -41,7 +41,7 @@ nav{
     display: flex;
 }
 .nav__list{
-    display: flex;
+    display: inline-flex;
     max-width: auto;
 }
 .nav__item{
@@ -55,6 +55,52 @@ nav{
 .nav__link:hover{
 opacity: 0.50;
 }
+.checkbtn{
+    font-size: 30px;
+    color: rgb(79, 20, 20);
+    float: right; 
+    line-height: 120px;
+    display: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#check{
+    display: none;
+}
+@media(max-width: 952px){
+    .lisbonita{
+        padding: 0px;
+    }
+    .nav__link{
+        font-size: 10px;
+    }
+}
+@media(max-width: 858px){
+    .checkbtn{
+        display: flex;
+    }
+    .nav__list{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: bisque;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        display: block;
+    }
+    .nav__item{
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .nav__link{
+        font-size: 20px;
+    }
+    #check:checked ~ .nav__list{
+        left: 100%;
+    }
+}
 .index__subtitulo{
     text-align: center;
     color: rgb(79, 20, 20);
@@ -62,6 +108,17 @@ opacity: 0.50;
 }
 .index__img{
     width: auto;
+    animation: fadeIn 4s ease;
+}
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+        filter: blur(15px);
+    }
+    10%{
+        opacity: 1;
+        filter: sepia(2) blur(10px);
+    }
 }
 .index__parrafo{
     text-align: center;
